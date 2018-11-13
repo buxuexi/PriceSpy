@@ -49,7 +49,7 @@ def run(brand, source, extracted_data):
 				extracted_data.append(data)
 			return
 		except Exception as e:
-			print format_exc(e)
+			print (format_exc(e))
 
 def crawl(product_name):
 	extracted_data = []
