@@ -1,6 +1,5 @@
 from lxml import html
 import requests
-import json
 from traceback import format_exc
 
 def run(brand, source, extracted_data):
