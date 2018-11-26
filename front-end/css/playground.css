@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px "\5FAE\8F6F\96C5\9ED1";
+    margin: 0;
+    padding: 0;
+    width: 390px;
+    /* height: 800px; */
+}
+
+header {
+    height: 44px;
+    vertical-align: middle;
+    padding: 0 5px 0 10px;
+    background-color: #f6f7f9;
+    border-bottom: 1px solid #EA9A00;
+}
+
+header #search {
+    margin-top: 6px;
+    float: right;
+}
+
+#search #product_name {
+    box-sizing: border-box;
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: solid 1px #EDEDED;
+    border-right: none;
+    font-size: 12px;
+    color: #666;
+    border-radius: 50px 0 0 50px;
+}
+
+#search .search-btn {
+    width: 34px;
+    height: 30px;
+    vertical-align: top;
+    border: none;
+    cursor: pointer;
+    background: url(../images/icons.png) -199px -110px;
+}
+
+#feeds-wrapper {
+    border-top: 1px solid #EA9A00;
+}
+
+#feeds-wrapper ul {
+    max-height: 411px;
+    overflow-y: scroll;
+}
+
+#feeds-wrapper li {
+    position: relative;
+    margin-right: 6px;
+    border-bottom: 1px solid #F1F1F1;
+    margin: 0 15px 0 20px;
+    padding: 15px 0;
+    height: 80px;
+}
+
+#feeds-wrapper .image-wrapper {
+    float: left;
+    font-size: 0;
+}
+
+#feeds-wrapper .image-wrapper a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+#feeds-wrapper .image-wrapper img {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+#feeds-wrapper .content-wrapper {
+    overflow: hidden;
+    margin-left: 100px;
+    height: 80px;
+}
+
+.content-wrapper .content-ctn {
+    height: 57px;
+    overflow: hidden;
+}
+
+.content-wrapper .content-title {
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    color: #444;
+    line-height: 16px;
+    max-height: 32px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+
+.content-wrapper .content-yuan {
+    color: #FF354E;
+    margin-bottom: 10px;
+}
+
+.content-wrapper .content-from {
+    position: absolute;
+    top: 80px;
+    width: 252px;
+    color: #9E9E9E;
+}
+
+.content-from-site {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-wrapper .content-buy {
+    position: absolute;
+    top: -6px;
+    right: 8px;
+    width: 60px;
+    height: 24px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    background-color: #FF5A27;
+    border-radius: 50px;
+}

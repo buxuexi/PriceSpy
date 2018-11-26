@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<p>Hello!</p>\n'
+    return app.send_static_file('../front-end/playground.html')
+    # return '<p>Hello!</p>\n'
 
 @app.route('/product/<product_name>', methods = ['GET'])
 def query(product_name):
