@@ -1,6 +1,6 @@
 
-// var root = "https://pricespy-297.herokuapp.com/product/"
-var root = "http://127.0.0.1:5000/product/"
+var root = "https://pricespy-297.herokuapp.com/product/"
+// var root = "http://127.0.0.1:5000/product/"
 
 var hot = [
     {

@@ -2,4 +2,4 @@
 .idea/
 virt/
 back-end/__pycache__/
-back-end/.DS_Store
+**/.DS_Store
