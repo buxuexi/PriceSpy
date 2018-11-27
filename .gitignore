@@ -1,5 +1,5 @@
 .vscode/
 .idea/
+**/.DS_Store
 virt/
 back-end/__pycache__/
-**/.DS_Store
