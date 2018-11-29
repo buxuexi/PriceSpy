@@ -47,7 +47,7 @@ def run(product_name, source, extracted_data):
 				if source == 'Amazon' and len(RAW_PRICE) >= 2:
 					PRICE  = ' '.join(' '.join(RAW_PRICE[1:2]).split())
 				TITLE = ' '.join(' '.join(RAW_TITLE).split())
-				IMAGE = ' '.join(' '.join(RAW_IMAGE).split())
+				IMAGE = ' '.join(' '.join(RAW_IMAGE[0:1]).split())
 				data = {
 						'URL':URL,
 						'TITLE':TITLE,

@@ -57,14 +57,12 @@ var hot = [
 $(document).ready(function(){
     var product_list = hot
     for(var i = 0; i < product_list.length; i++){
-        console.log(product_list[i].IMAGE)
         $("#products").append('<li class="item"><div class="image-wrapper"><a title=' + product_list[i].TITLE + ' href='+ product_list[i].URL + ' target="_blank"><img src='+ product_list[i].IMAGE + ' alt='+ product_list[i].TITLE+'></a></div><div class="content-wrapper"><div class="content-ctn"><a title='+ product_list[i].TITLE+' class="content-title">'+ product_list[i].TITLE+'</a><div class="content-yuan">'+ product_list[i].PRICE+'</div></div><div class="content-from"><span class="content-from-site">'+ product_list[i].SOURCE +'</span><a title='+ product_list[i].TITLE+' href='+ product_list[i].URL + ' class="content-buy" target="_blank">Buy it</a></div></div></li>');
     }
 });
 
 $(document).ready(function(){
     $(".search-btn").click(function(){
-        // $("#products").empty()
         var product_name = $("#product_name").val()
         var url = root + product_name
         $.getJSON(url,function(data){
